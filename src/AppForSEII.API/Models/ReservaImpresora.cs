@@ -35,4 +35,7 @@ public class ReservaImpresora
 
     [ForeignKey(nameof(ClienteId))]
     public Cliente Cliente { get; set; } = null!;
+
+    public ICollection<LineaReserva> LineasReserva { get; set; }
+    = new List<LineaReserva>();
 }

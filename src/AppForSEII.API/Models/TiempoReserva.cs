@@ -1,0 +1,12 @@
+namespace AppForSEII.API.Models;
+
+public enum TiempoReserva
+{
+    UnaHora = 1,
+    DosHoras = 2,
+    TresHoras = 3,
+    CuatroHoras = 4,
+    CincoHoras = 5,
+    UnDia = 24,
+    DosDias = 48
+}

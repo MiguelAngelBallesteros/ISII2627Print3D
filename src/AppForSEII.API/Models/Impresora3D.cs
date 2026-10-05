@@ -30,4 +30,7 @@ public class Impresora3D
     [Column(TypeName = "decimal(10,2)")]
     [Range(typeof(decimal), "0", "99999999.99")]
     public decimal PrecioReserva { get; set; }
+
+    public ICollection<LineaReserva> LineasReserva { get; set; }
+    = new List<LineaReserva>();
 }

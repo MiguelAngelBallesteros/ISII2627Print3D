@@ -7,7 +7,11 @@ hide methods
 !include Impresora3D.puml
 !include TipoImpresora.puml
 !include ReservaImpresora.puml
+!include LineaReserva.puml
+!include TiempoReserva.puml
 
 Cliente "1" -- "0..*" ReservaImpresora : realiza
+ReservaImpresora "1" *-- "1..*" LineaReserva : contiene
+LineaReserva "0..*" --> "1" Impresora3D : impresora
 
 @enduml
