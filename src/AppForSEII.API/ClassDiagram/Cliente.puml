@@ -1,0 +1,6 @@
+@startuml
+class Cliente {
+    + DireccionFacturacion : string <<get>> <<set>>
+}
+ApplicationUser <|-- Cliente
+@enduml
