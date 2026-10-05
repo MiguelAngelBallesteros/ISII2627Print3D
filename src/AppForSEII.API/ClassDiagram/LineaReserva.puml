@@ -1,0 +1,11 @@
+@startuml
+class LineaReserva {
+    + Id : int <<get>> <<set>>
+    + TiempoReserva : TiempoReserva <<get>> <<set>>
+    + PrecioSubtotal : decimal <<get>> <<set>>
+    + ReservaImpresoraId : int <<get>> <<set>>
+    + ReservaImpresora : ReservaImpresora <<get>> <<set>>
+    + Impresora3DId : int <<get>> <<set>>
+    + Impresora3D : Impresora3D <<get>> <<set>>
+}
+@enduml

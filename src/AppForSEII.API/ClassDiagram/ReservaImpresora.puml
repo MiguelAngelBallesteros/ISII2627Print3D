@@ -9,5 +9,6 @@ class ReservaImpresora {
     + MetodoPago : MetodoPago <<get>> <<set>>
     + ClienteId : string <<get>> <<set>>
     + Cliente : Cliente <<get>> <<set>>
+    + LineasReserva : ICollection<LineaReserva> <<get>> <<set>>
 }
 @enduml

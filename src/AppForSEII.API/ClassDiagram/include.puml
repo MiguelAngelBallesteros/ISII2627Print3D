@@ -2,7 +2,9 @@
 !include .\\ApplicationUser.puml
 !include .\\Cliente.puml
 !include .\\Impresora3D.puml
+!include .\\LineaReserva.puml
 !include .\\MetodoPago.puml
 !include .\\ReservaImpresora.puml
+!include .\\TiempoReserva.puml
 !include .\\TipoImpresora.puml
 @enduml

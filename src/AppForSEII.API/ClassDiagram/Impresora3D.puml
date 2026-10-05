@@ -7,5 +7,6 @@ class Impresora3D {
     + Descripcion : string <<get>> <<set>>
     + PrecioKilovatioHora : decimal <<get>> <<set>>
     + PrecioReserva : decimal <<get>> <<set>>
+    + LineasReserva : ICollection<LineaReserva> <<get>> <<set>>
 }
 @enduml
