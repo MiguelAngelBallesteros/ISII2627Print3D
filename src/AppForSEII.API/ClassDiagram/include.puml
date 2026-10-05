@@ -1,8 +1,8 @@
 @startuml
-
-hide methods
-
 !include .\\ApplicationUser.puml
+!include .\\Cliente.puml
 !include .\\Impresora3D.puml
+!include .\\MetodoPago.puml
+!include .\\ReservaImpresora.puml
 !include .\\TipoImpresora.puml
 @enduml

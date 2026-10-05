@@ -1,7 +1,13 @@
 @startuml
 hide methods
 
+!include ApplicationUser.puml
+!include Cliente.puml
+!include MetodoPago.puml
 !include Impresora3D.puml
 !include TipoImpresora.puml
+!include ReservaImpresora.puml
+
+Cliente "1" -- "0..*" ReservaImpresora : realiza
 
 @enduml
