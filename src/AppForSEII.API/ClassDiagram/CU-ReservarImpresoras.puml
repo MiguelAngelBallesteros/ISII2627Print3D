@@ -1,0 +1,7 @@
+@startuml
+hide methods
+
+!include Impresora3D.puml
+!include TipoImpresora.puml
+
+@enduml
